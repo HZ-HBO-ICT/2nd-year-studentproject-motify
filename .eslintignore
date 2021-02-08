@@ -1,0 +1,10 @@
+*
+/build/
+/config/
+/dist/
+/*.js
+{{#unit}}
+/test/unit/coverage/
+{{/unit}}
+*.sass
+*.scss

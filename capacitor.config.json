@@ -1,0 +1,12 @@
+{
+    "appId": "com.",
+    "appName": "Motify",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "dist",
+    "plugins": {
+        "SplashScreen":  {
+            "launchShowDuration": 20
+        }
+    }
+}

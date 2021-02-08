@@ -1,0 +1,28 @@
+@import '~vuetify/dist/vuetify.css';
+@import 'lib/optimization';
+
+:root {
+    --sab: env(safe-area-inset-bottom, 0);
+    --sal: env(safe-area-inset-left, 0);
+    --sar: env(safe-area-inset-right, 0);
+    --sat: env(safe-area-inset-top, 0);
+}
+
+.powerBtn {
+    background-color: #ff2626 !important;
+}
+
+h1,
+h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    color: #2b2b2b;
+    font-size: 2em;
+}
